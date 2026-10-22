@@ -1,0 +1,430 @@
+[gd_scene format=3 uid="uid://cyfpsnqe2stas"]
+
+[ext_resource type="Script" uid="uid://wj4subntv578" path="res://game_controller.gd" id="1_jnglt"]
+
+[node name="HanamikojiTable" type="Control" unique_id=81268055]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_jnglt")
+
+[node name="Board" type="ColorRect" parent="." unique_id=1727654593]
+layout_mode = 0
+offset_right = 1536.0
+offset_bottom = 1024.0
+color = Color(0.1254902, 0.14117648, 0.17254902, 1)
+
+[node name="Title" type="Label" parent="Board" unique_id=1264248015]
+layout_mode = 0
+offset_left = 48.0
+offset_top = 22.0
+offset_right = 48.0
+offset_bottom = 22.0
+theme_override_font_sizes/font_size = 20
+text = "花见小路 · 双人对战"
+
+[node name="OpponentGiftLabel" type="Label" parent="Board" unique_id=763287089]
+layout_mode = 0
+offset_left = 48.0
+offset_top = 72.0
+offset_right = 48.0
+offset_bottom = 72.0
+theme_override_font_sizes/font_size = 20
+text = "对手礼物牌区"
+
+[node name="OpponentActionLabel" type="Label" parent="Board" unique_id=2040110652]
+layout_mode = 0
+offset_left = 1190.0
+offset_top = 72.0
+offset_right = 1190.0
+offset_bottom = 72.0
+theme_override_font_sizes/font_size = 20
+text = "对手操作牌区"
+
+[node name="OpponentSentLabel" type="Label" parent="Board" unique_id=1228439360]
+layout_mode = 0
+offset_left = 120.0
+offset_top = 330.0
+offset_right = 260.0
+offset_bottom = 358.0
+theme_override_font_sizes/font_size = 20
+text = "对手送出礼物区"
+
+[node name="GeishaLabel" type="Label" parent="Board" unique_id=1955239171]
+layout_mode = 0
+offset_left = 120.0
+offset_top = 480.0
+offset_right = 220.0
+offset_bottom = 508.0
+theme_override_font_sizes/font_size = 20
+text = "艺伎卡牌区"
+
+[node name="OwnSentLabel" type="Label" parent="Board" unique_id=547408577]
+layout_mode = 0
+offset_left = 120.0
+offset_top = 630.0
+offset_right = 260.0
+offset_bottom = 658.0
+theme_override_font_sizes/font_size = 20
+text = "己方送出礼物区"
+
+[node name="OwnGiftLabel" type="Label" parent="Board" unique_id=1814269518]
+layout_mode = 0
+offset_left = 48.0
+offset_top = 790.0
+offset_right = 48.0
+offset_bottom = 790.0
+theme_override_font_sizes/font_size = 20
+text = "己方礼物手牌区"
+
+[node name="OwnActionLabel" type="Label" parent="Board" unique_id=405047249]
+layout_mode = 0
+offset_left = 1190.0
+offset_top = 790.0
+offset_right = 1190.0
+offset_bottom = 790.0
+theme_override_font_sizes/font_size = 20
+text = "己方操作牌区"
+
+[node name="OpponentGift1" type="ColorRect" parent="Board" unique_id=1463568601]
+layout_mode = 0
+offset_left = 48.0
+offset_top = 105.0
+offset_right = 148.0
+offset_bottom = 255.0
+color = Color(0.24313726, 0.3372549, 0.42745098, 1)
+
+[node name="OpponentGift2" type="ColorRect" parent="Board" unique_id=77767434]
+layout_mode = 0
+offset_left = 162.0
+offset_top = 105.0
+offset_right = 262.0
+offset_bottom = 255.0
+color = Color(0.24313726, 0.3372549, 0.42745098, 1)
+
+[node name="OpponentGift3" type="ColorRect" parent="Board" unique_id=220064816]
+layout_mode = 0
+offset_left = 276.0
+offset_top = 105.0
+offset_right = 376.0
+offset_bottom = 255.0
+color = Color(0.24313726, 0.3372549, 0.42745098, 1)
+
+[node name="OpponentGift4" type="ColorRect" parent="Board" unique_id=43455113]
+layout_mode = 0
+offset_left = 390.0
+offset_top = 105.0
+offset_right = 490.0
+offset_bottom = 255.0
+color = Color(0.24313726, 0.3372549, 0.42745098, 1)
+
+[node name="OpponentGift5" type="ColorRect" parent="Board" unique_id=1391048957]
+layout_mode = 0
+offset_left = 504.0
+offset_top = 105.0
+offset_right = 604.0
+offset_bottom = 255.0
+color = Color(0.24313726, 0.3372549, 0.42745098, 1)
+
+[node name="OpponentGift6" type="ColorRect" parent="Board" unique_id=900442328]
+layout_mode = 0
+offset_left = 618.0
+offset_top = 105.0
+offset_right = 718.0
+offset_bottom = 255.0
+color = Color(0.24313726, 0.3372549, 0.42745098, 1)
+
+[node name="OpponentGift7" type="ColorRect" parent="Board" unique_id=1254561872]
+layout_mode = 0
+offset_left = 732.0
+offset_top = 105.0
+offset_right = 832.0
+offset_bottom = 255.0
+color = Color(0.24313726, 0.3372549, 0.42745098, 1)
+
+[node name="OpponentAction1" type="ColorRect" parent="Board" unique_id=1504494816]
+layout_mode = 0
+offset_left = 1190.0
+offset_top = 105.0
+offset_right = 1262.0
+offset_bottom = 213.0
+color = Color(0.44705883, 0.3529412, 0.54901963, 1)
+
+[node name="OpponentAction2" type="ColorRect" parent="Board" unique_id=2011178796]
+layout_mode = 0
+offset_left = 1274.0
+offset_top = 105.0
+offset_right = 1346.0
+offset_bottom = 213.0
+color = Color(0.44705883, 0.3529412, 0.54901963, 1)
+
+[node name="OpponentAction3" type="ColorRect" parent="Board" unique_id=434430893]
+layout_mode = 0
+offset_left = 1358.0
+offset_top = 105.0
+offset_right = 1430.0
+offset_bottom = 213.0
+color = Color(0.44705883, 0.3529412, 0.54901963, 1)
+
+[node name="OpponentAction4" type="ColorRect" parent="Board" unique_id=1911592668]
+layout_mode = 0
+offset_left = 1442.0
+offset_top = 105.0
+offset_right = 1514.0
+offset_bottom = 213.0
+color = Color(0.44705883, 0.3529412, 0.54901963, 1)
+
+[node name="OpponentSent1" type="ColorRect" parent="Board" unique_id=1609943718]
+layout_mode = 0
+offset_left = 360.0
+offset_top = 300.0
+offset_right = 440.0
+offset_bottom = 420.0
+color = Color(0.27450982, 0.3137255, 0.36862746, 1)
+
+[node name="OpponentSent2" type="ColorRect" parent="Board" unique_id=979754946]
+layout_mode = 0
+offset_left = 452.0
+offset_top = 300.0
+offset_right = 532.0
+offset_bottom = 420.0
+color = Color(0.27450982, 0.3137255, 0.36862746, 1)
+
+[node name="OpponentSent3" type="ColorRect" parent="Board" unique_id=1634384921]
+layout_mode = 0
+offset_left = 544.0
+offset_top = 300.0
+offset_right = 624.0
+offset_bottom = 420.0
+color = Color(0.27450982, 0.3137255, 0.36862746, 1)
+
+[node name="OpponentSent4" type="ColorRect" parent="Board" unique_id=384866009]
+layout_mode = 0
+offset_left = 636.0
+offset_top = 300.0
+offset_right = 716.0
+offset_bottom = 420.0
+color = Color(0.27450982, 0.3137255, 0.36862746, 1)
+
+[node name="OpponentSent5" type="ColorRect" parent="Board" unique_id=1596927351]
+layout_mode = 0
+offset_left = 728.0
+offset_top = 300.0
+offset_right = 808.0
+offset_bottom = 420.0
+color = Color(0.27450982, 0.3137255, 0.36862746, 1)
+
+[node name="Geisha1" type="ColorRect" parent="Board" unique_id=709004834]
+layout_mode = 0
+offset_left = 360.0
+offset_top = 450.0
+offset_right = 440.0
+offset_bottom = 570.0
+color = Color(0.7490196, 0.41960785, 0.47058824, 1)
+
+[node name="Geisha2" type="ColorRect" parent="Board" unique_id=46455024]
+layout_mode = 0
+offset_left = 452.0
+offset_top = 450.0
+offset_right = 532.0
+offset_bottom = 570.0
+color = Color(0.81960785, 0.5411765, 0.36078432, 1)
+
+[node name="Geisha3" type="ColorRect" parent="Board" unique_id=56655362]
+layout_mode = 0
+offset_left = 544.0
+offset_top = 450.0
+offset_right = 624.0
+offset_bottom = 570.0
+color = Color(0.7647059, 0.6392157, 0.35686275, 1)
+
+[node name="Geisha4" type="ColorRect" parent="Board" unique_id=1453851561]
+layout_mode = 0
+offset_left = 636.0
+offset_top = 450.0
+offset_right = 716.0
+offset_bottom = 570.0
+color = Color(0.3647059, 0.6156863, 0.5686275, 1)
+
+[node name="Geisha5" type="ColorRect" parent="Board" unique_id=1340264753]
+layout_mode = 0
+offset_left = 728.0
+offset_top = 450.0
+offset_right = 808.0
+offset_bottom = 570.0
+color = Color(0.38431373, 0.5372549, 0.7137255, 1)
+
+[node name="Geisha6" type="ColorRect" parent="Board" unique_id=2035776586]
+layout_mode = 0
+offset_left = 820.0
+offset_top = 450.0
+offset_right = 900.0
+offset_bottom = 570.0
+color = Color(0.5411765, 0.44705883, 0.67058825, 1)
+
+[node name="Geisha7" type="ColorRect" parent="Board" unique_id=1141423283]
+layout_mode = 0
+offset_left = 912.0
+offset_top = 450.0
+offset_right = 992.0
+offset_bottom = 570.0
+color = Color(0.72156864, 0.43137255, 0.2901961, 1)
+
+[node name="OwnSent1" type="ColorRect" parent="Board" unique_id=186681173]
+layout_mode = 0
+offset_left = 360.0
+offset_top = 600.0
+offset_right = 440.0
+offset_bottom = 720.0
+color = Color(0.27450982, 0.3137255, 0.36862746, 1)
+
+[node name="OwnSent2" type="ColorRect" parent="Board" unique_id=1670925571]
+layout_mode = 0
+offset_left = 452.0
+offset_top = 600.0
+offset_right = 532.0
+offset_bottom = 720.0
+color = Color(0.27450982, 0.3137255, 0.36862746, 1)
+
+[node name="OwnSent3" type="ColorRect" parent="Board" unique_id=565648119]
+layout_mode = 0
+offset_left = 544.0
+offset_top = 600.0
+offset_right = 624.0
+offset_bottom = 720.0
+color = Color(0.27450982, 0.3137255, 0.36862746, 1)
+
+[node name="OwnSent4" type="ColorRect" parent="Board" unique_id=1344413582]
+layout_mode = 0
+offset_left = 636.0
+offset_top = 600.0
+offset_right = 716.0
+offset_bottom = 720.0
+color = Color(0.27450982, 0.3137255, 0.36862746, 1)
+
+[node name="OwnSent5" type="ColorRect" parent="Board" unique_id=31904824]
+layout_mode = 0
+offset_left = 728.0
+offset_top = 600.0
+offset_right = 808.0
+offset_bottom = 720.0
+color = Color(0.27450982, 0.3137255, 0.36862746, 1)
+
+[node name="OwnGift1" type="ColorRect" parent="Board" unique_id=1393588966]
+layout_mode = 0
+offset_left = 48.0
+offset_top = 825.0
+offset_right = 148.0
+offset_bottom = 975.0
+color = Color(0.7647059, 0.6392157, 0.35686275, 1)
+
+[node name="OwnGift2" type="ColorRect" parent="Board" unique_id=1429689813]
+layout_mode = 0
+offset_left = 162.0
+offset_top = 825.0
+offset_right = 262.0
+offset_bottom = 975.0
+color = Color(0.3647059, 0.6156863, 0.5686275, 1)
+
+[node name="OwnGift3" type="ColorRect" parent="Board" unique_id=535889057]
+layout_mode = 0
+offset_left = 276.0
+offset_top = 825.0
+offset_right = 376.0
+offset_bottom = 975.0
+color = Color(0.38431373, 0.5372549, 0.7137255, 1)
+
+[node name="OwnGift4" type="ColorRect" parent="Board" unique_id=412766413]
+layout_mode = 0
+offset_left = 390.0
+offset_top = 825.0
+offset_right = 490.0
+offset_bottom = 975.0
+color = Color(0.5411765, 0.44705883, 0.67058825, 1)
+
+[node name="OwnGift5" type="ColorRect" parent="Board" unique_id=2041372819]
+layout_mode = 0
+offset_left = 504.0
+offset_top = 825.0
+offset_right = 604.0
+offset_bottom = 975.0
+color = Color(0.72156864, 0.43137255, 0.2901961, 1)
+
+[node name="OwnGift6" type="ColorRect" parent="Board" unique_id=1532488056]
+layout_mode = 0
+offset_left = 618.0
+offset_top = 825.0
+offset_right = 718.0
+offset_bottom = 975.0
+color = Color(0.7490196, 0.41960785, 0.47058824, 1)
+
+[node name="OwnGift7" type="ColorRect" parent="Board" unique_id=1167069204]
+layout_mode = 0
+offset_left = 732.0
+offset_top = 825.0
+offset_right = 832.0
+offset_bottom = 975.0
+color = Color(0.81960785, 0.5411765, 0.36078432, 1)
+
+[node name="OwnAction1" type="ColorRect" parent="Board" unique_id=264128414]
+layout_mode = 0
+offset_left = 1190.0
+offset_top = 825.0
+offset_right = 1262.0
+offset_bottom = 933.0
+color = Color(0.44705883, 0.3529412, 0.54901963, 1)
+
+[node name="OwnAction2" type="ColorRect" parent="Board" unique_id=1677720239]
+layout_mode = 0
+offset_left = 1274.0
+offset_top = 825.0
+offset_right = 1346.0
+offset_bottom = 933.0
+color = Color(0.44705883, 0.3529412, 0.54901963, 1)
+
+[node name="OwnAction3" type="ColorRect" parent="Board" unique_id=1319566661]
+layout_mode = 0
+offset_left = 1358.0
+offset_top = 825.0
+offset_right = 1430.0
+offset_bottom = 933.0
+color = Color(0.44705883, 0.3529412, 0.54901963, 1)
+
+[node name="OwnAction4" type="ColorRect" parent="Board" unique_id=90606256]
+layout_mode = 0
+offset_left = 1442.0
+offset_top = 825.0
+offset_right = 1514.0
+offset_bottom = 933.0
+color = Color(0.44705883, 0.3529412, 0.54901963, 1)
+
+[node name="OpponentSent6" type="ColorRect" parent="Board" unique_id=492427390]
+layout_mode = 0
+offset_left = 820.0
+offset_top = 300.0
+offset_right = 900.0
+offset_bottom = 420.0
+color = Color(0.27450982, 0.3137255, 0.36862746, 1)
+
+[node name="OwnSent6" type="ColorRect" parent="Board" unique_id=1626678817]
+layout_mode = 0
+offset_left = 820.0
+offset_top = 600.0
+offset_right = 900.0
+offset_bottom = 720.0
+color = Color(0.27450982, 0.3137255, 0.36862746, 1)
+
+[node name="OpponentSent7" type="ColorRect" parent="Board" unique_id=317669586]
+layout_mode = 0
+offset_left = 912.0
+offset_top = 300.0
+offset_right = 992.0
+offset_bottom = 420.0
+color = Color(0.27450982, 0.3137255, 0.36862746, 1)
+
+[node name="OwnSent7" type="ColorRect" parent="Board" unique_id=1995572708]
+layout_mode = 0
+offset_left = 912.0
+offset_top = 600.0
+offset_right = 992.0
+offset_bottom = 720.0
+color = Color(0.27450982, 0.3137255, 0.36862746, 1)
